@@ -1,0 +1,51 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "espaco",
+    "autor": "Stephen Hawking",
+    "edicion": 3
+
+}
+
+###
+DELETE http://localhost:9000/api/10 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/9 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "tempo",
+    "autor": "Stephen Hawking",
+    "edicion": 5
+
+}
+
+//funcionarios
+###
+GET http://localhost:9000/newapi HTTP/1.1
+
+###
+POST http://localhost:9000/newapi HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "Lula"
+}
+
+###
+DELETE http://localhost:9000/newapi/3 HTTP/1.1
+
+###
+PUT http://localhost:9000/newapi/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "Bolsonario"
+
+}
